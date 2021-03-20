@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性別："
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <RadioGroup
+        android:id="@+id/sex"
+        android:layout_width="121dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135">
+
+        <RadioButton
+            android:id="@+id/sex_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:checked="true"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <RadioButton
+            android:id="@+id/sex_woman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="女"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="136dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/title_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="年齡："
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
+
+    <RadioGroup
+        android:id="@+id/age"
+        android:layout_width="121dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468">
+
+        <RadioButton
+            android:id="@+id/age_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0-25"
+            android:checked="true"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="205dp" />
+
+        <RadioButton
+            android:id="@+id/age_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="26-30"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="256dp" />
+
+        <RadioButton
+            android:id="@+id/age_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="31-99"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="307dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/title_seg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="96dp"
+        android:layout_height="40dp"
+        android:text="送出"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
+</androidx.constraintlayout.widget.ConstraintLayout>

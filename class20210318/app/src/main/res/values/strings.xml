@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">婚姻諮詢</string>
+
+    <string name="manAge_1">25</string>
+    <string name="manAge_2">30</string>
+    <string name="manAge_3">40</string>
+
+    <string name="womanAge_1">20</string>
+    <string name="womanAge_2">25</string>
+    <string name="womanAge_3">30</string>
+
+    <string name="suggestion">建議</string>
+    <string name="not_hurry">不急</string>
+    <string name="find_couple">去找</string>
+    <string name="get_married">結婚</string>
+</resources>
